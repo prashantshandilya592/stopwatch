@@ -1,0 +1,58 @@
+
+body{
+    
+    background-image: radial-gradient( circle farthest-corner at 50.7% 54%,  rgba(204,254,152,1) 0%, rgba(229,253,190,1) 92.4% );
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: #e47e0a;
+}
+
+.stopwatch{border: 10px solid #f50d05;
+    border-radius: 25%;
+    margin-left: 150px;
+    font-size: 150px;
+    text-align: center;
+    color: #333;
+    margin-top: 150px;
+    float: left;
+    padding: 20px 50px;
+}
+.controls{
+    margin-right: 200px;
+    margin-top: 50px;
+    float:right;
+    align-items: center;
+    justify-content: center;
+}
+
+span{
+    display: block;
+}
+.btn{
+    background: #3dd110;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 20px 50px;
+    font-weight: 500;
+    margin: 20px 10px 0 0;
+    border-radius: 6px;
+    text-decoration: none;
+    border: 2px solid #ad3c3c;
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+.btn:hover{
+    color: crimson;
+    background: none;
+}
+
+.laps{
+    font-size: 40px;
+}
+.lap-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
